@@ -9,7 +9,7 @@ people servers, clients;
 
 void setup() {
   size(displayWidth, displayHeight);
-  background(0);
+  background(255);
   stroke(0);
   noCursor();
   
@@ -34,16 +34,16 @@ void setup() {
   imgPeople[0][1] = loadImage("data/head_a_1.png");
   imgPeople[0][2] = loadImage("data/head_a_2.png");
   
-  imgPeople[1][0] = loadImage("data/head_a_0.png");
-  imgPeople[1][1] = loadImage("data/head_a_1.png");
-  imgPeople[1][2] = loadImage("data/head_a_2.png");
+  imgPeople[1][0] = loadImage("data/head_b_0.png");
+  imgPeople[1][1] = loadImage("data/head_b_1.png");
+  imgPeople[1][2] = loadImage("data/head_b_2.png");
   
 }
 
 
 
 void draw() {
- background(0);
+ background(255);
  
  //UPDATE triangle
 
