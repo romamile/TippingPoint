@@ -1,10 +1,5 @@
 
 
-
-//TO DO:
-// 1) Penser à l'association et répartition entre visages et clients/servers
-
-
 PImage[] imgCoins;
 PImage[][] imgPeople;
 
@@ -26,22 +21,22 @@ void setup() {
   imgCoins = new PImage[8];
   imgPeople = new PImage[2][3];
   
-  imgCoins[0] = loadImage("data/coin_1cent.png");
-  imgCoins[1] = loadImage("data/coin_2cent.png");
-  imgCoins[2] = loadImage("data/coin_5cent.png");
-  imgCoins[3] = loadImage("data/coin_10cent.png");
-  imgCoins[4] = loadImage("data/coin_20cent.png");
-  imgCoins[5] = loadImage("data/coin_50cent.png");
-  imgCoins[6] = loadImage("data/coin_1euro.png");
-  imgCoins[7] = loadImage("data/coin_2euro.png");
+  imgCoins[0] = loadImage("data/coin_001.png");
+  imgCoins[1] = loadImage("data/coin_002.png");
+  imgCoins[2] = loadImage("data/coin_005.png");
+  imgCoins[3] = loadImage("data/coin_010.png");
+  imgCoins[4] = loadImage("data/coin_020.png");
+  imgCoins[5] = loadImage("data/coin_050.png");
+  imgCoins[6] = loadImage("data/coin_100.png");
+  imgCoins[7] = loadImage("data/coin_200.png");
   
-  imgPeople[0][0] = loadImage("data/waiter_0_neutral.png");
-  imgPeople[0][1] = loadImage("data/waiter_0_happy.png");
-  imgPeople[0][2] = loadImage("data/waiter_0_sad.png");
+  imgPeople[0][0] = loadImage("data/head_a_0.png");
+  imgPeople[0][1] = loadImage("data/head_a_1.png");
+  imgPeople[0][2] = loadImage("data/head_a_2.png");
   
-  imgPeople[1][0] = loadImage("data/waiter_0_neutral.png");
-  imgPeople[1][1] = loadImage("data/waiter_0_happy.png");
-  imgPeople[1][2] = loadImage("data/waiter_0_sad.png");
+  imgPeople[1][0] = loadImage("data/head_a_0.png");
+  imgPeople[1][1] = loadImage("data/head_a_1.png");
+  imgPeople[1][2] = loadImage("data/head_a_2.png");
   
 }
 
