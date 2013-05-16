@@ -25,12 +25,14 @@ class hand {
   }
   
   void drawMe() {
+   pushStyle();
+   noStroke();
    fill(200,40,40);
    pushMatrix();
      translate(x, 10);
      triangle(0, 10, l, 10, l/2, l);
    popMatrix();
-    
+   popStyle();
   }
   
 }
