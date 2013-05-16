@@ -42,11 +42,11 @@ class person {
    }
    
     
-    //Bumpe into walls
+    //Bump into walls
     if(x > width - ww/2) {vx = -abs(vx); vx *=0.9; }
     if(x < ww/2)         {vx = abs(vx); vx *=0.9; }
 
-    //Change directon randomly
+    //Change direction randomly
     t++;
     if (random(0,1000) < t) { t=0; vx = random(-5,5); }
     
